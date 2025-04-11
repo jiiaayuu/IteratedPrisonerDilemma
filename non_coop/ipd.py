@@ -12,7 +12,6 @@ IMAGES_FOLDER = 'images'
 PAYOFFS = [[1, 5], [0, 3]]       # Payoff matrix
 MOVES = ["D", "C"]              # D = defect, C = cooperate
 
-# Ensure images folder exists
 os.makedirs(IMAGES_FOLDER, exist_ok=True)
 
 def get_player_history(full_history, player_index, current_turn):
